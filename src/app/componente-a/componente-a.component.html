@@ -1,0 +1,7 @@
+<table border="1">
+  <tr *ngFor="let row of rows" (click)="onRowClick(row)">
+    <td>{{ row.id }}</td>
+    <td>{{ row.name }}</td>
+    <!-- Otros campos -->
+  </tr>
+</table>

@@ -1,0 +1,15 @@
+<!-- componente-b.component.html -->
+<div *ngIf="selectedRow">
+  Fila seleccionada en ComponenteB:
+  <table border="1">
+    <tr>
+      <td>ID</td>
+      <td>{{ selectedRow.id }}</td>
+    </tr>
+    <tr>
+      <td>Nombre</td>
+      <td>{{ selectedRow.name }}</td>
+    </tr>
+    <!-- Otros campos -->
+  </table>
+</div>
